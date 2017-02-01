@@ -2182,37 +2182,25 @@
 <Function_Key_Entry>
 <ID>Fkey1</ID>
 {IF ua=Fanvil X3S}
+<Type>0</Type>
+<Value></Value>
+<Title></Title>
+{ELSE}
 <Type>2</Type>
-<Value>SIP1</Value>
+<Value>SIP0</Value>
+<Title>Ln</Title>
+{ENDIF}
+</Function_Key_Entry>
+<Function_Key_Entry>
+<ID>Fkey2</ID>
+{IF ua=Fanvil X3S}
+<Type>0</Type>
+<Value></Value>
 {ELSE}
 <Type>3</Type>
 <Value>F_HEADSET</Value>
 {ENDIF}
 <Title></Title>
-</Function_Key_Entry>
-<Function_Key_Entry>
-<ID>Fkey2</ID>
-{IF ua=Fanvil X5}
-<Type>2</Type>
-<Value>SIP1</Value>
-<Title>%%extension_first_name%% %%extension_last_name%%</Title>
-{ENDIF}
-{IF ua=Fanvil X3S}
-<Type>0</Type>
-<Value></Value>
-<Title></Title>
-{ENDIF}
-{IF ua=Fanvil X4}
-{IF blf1}
-<Type>1</Type>
-<Value>%%blf1%%@1/%%DKtype%%%%PickupValue%%%%blf1%%</Value>
-<Title>%%blffirstname1%% %%blflastname1%%</Title>
-{ELSE}
-<Type>0</Type>
-<Value></Value>
-<Title></Title>
-{ENDIF}
-{ENDIF}
 </Function_Key_Entry>
 <Function_Key_Entry>
 <ID>Fkey3</ID>
