@@ -7,11 +7,11 @@
     <name>Fanvil IP Phone</name>
     <url>http://www.fanvil.com/</url>
     <models>
-      <model ua="Fanvil H3">Fanvil H3 - Aptitude</model>
-      <model ua="Fanvil X3S">Fanvil X3S - Aptitude</model>
-      <model ua="Fanvil X3">Fanvil X3 - Aptitude</model>
-      <model ua="Fanvil X4">Fanvil X4 - Aptitude</model>
-      <model ua="Fanvil X5">Fanvil X5 - Aptitude</model>
+      <model ua="Fanvil H3">Fanvil H3-Brunet_fanvil</model>
+      <model ua="Fanvil X3S">Fanvil X3S-Brunet_fanvil</model>
+      <model ua="Fanvil X3">Fanvil X3-Brunet_fanvil</model>
+      <model ua="Fanvil X4">Fanvil X4-Brunet_fanvil</model>
+      <model ua="Fanvil X5">Fanvil X5-Brunet_fanvil</model>
     </models>
     <description>Fanvil IP Phone</description>
     <parsers>
@@ -1981,7 +1981,7 @@
 <Fast_Keylock_Code></Fast_Keylock_Code>
 <Enable_KeyLock>0</Enable_KeyLock>
 <Emergency_Call>110</Emergency_Call>
-<LCD_Title>Aptitude Technologies</LCD_Title>
+<LCD_Title>VOIP PHONE</LCD_Title>
 <LCD_Constrast>5</LCD_Constrast>
 <LCD_Luminance>1</LCD_Luminance>
 <Backlight_Off_Time>30</Backlight_Off_Time>
@@ -2188,7 +2188,7 @@
 {ELSE}
 <Type>2</Type>
 <Value>SIP0</Value>
-<Title>Ln</Title>
+<Title>Ln1</Title>
 {ENDIF}
 </Function_Key_Entry>
 <Function_Key_Entry>
@@ -2196,34 +2196,23 @@
 {IF ua=Fanvil X3S}
 <Type>0</Type>
 <Value></Value>
-{ELSE}
-<Type>3</Type>
-<Value>F_HEADSET</Value>
-{ENDIF}
 <Title></Title>
+{ELSE}
+<Type>2</Type>
+<Value>SIP0</Value>
+<Title>Ln2</Title>
+{ENDIF}
 </Function_Key_Entry>
 <Function_Key_Entry>
 <ID>Fkey3</ID>
-{IF ua=Fanvil X5}
-<Type>2</Type>
-<Value>SIP1</Value>
-<Title>%%extension_first_name%% %%extension_last_name%%</Title>
-{ENDIF}
 {IF ua=Fanvil X3S}
 <Type>0</Type>
 <Value></Value>
 <Title></Title>
-{ENDIF}
-{IF ua=Fanvil X4}
-{IF blf1}
-<Type>1</Type>
-<Value>%%blf1%%@1/%%DKtype%%%%PickupValue%%%%blf1%%</Value>
-<Title>%%blffirstname1%% %%blflastname1%%</Title>
 {ELSE}
-<Type>0</Type>
-<Value></Value>
+<Type>3</Type>
+<Value>F_HEADSET</Value>
 <Title></Title>
-{ENDIF}
 {ENDIF}
 </Function_Key_Entry>
 <Function_Key_Entry>
@@ -4371,7 +4360,7 @@
 <Conference_Softkey>hold;none;split;end;</Conference_Softkey>
 <Waiting_Softkey>hold;xfer;conf;end;</Waiting_Softkey>
 <Ending_Softkey>repeat;none;none;end;</Ending_Softkey>
-<DialerPre_Softkey>delete;save;send;exit;</DialerPre_Softkey>
+<DialerPre_Softkey>delete;none;send;exit;</DialerPre_Softkey>
 <DialerCall_Softkey>delete;none;send;exit;</DialerCall_Softkey>
 <DialerXfer_Softkey>delete;xfer;send;exit;</DialerXfer_Softkey>
 <DialerCfwd_Softkey>delete;none;cfwd;exit;</DialerCfwd_Softkey>
