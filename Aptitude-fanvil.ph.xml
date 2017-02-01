@@ -1512,7 +1512,7 @@
 <Auto_PickupNext>0</Auto_PickupNext>
 <Busy_No_Line>0</Busy_No_Line>
 <Auto_Onhook>1</Auto_Onhook>
-<Auto_Onhook_Time>1</Auto_Onhook_Time>
+<Auto_Onhook_Time>0</Auto_Onhook_Time>
 <DND_Code>1</DND_Code>
 <Busy_Code>2</Busy_Code>
 <Reject_Code>2</Reject_Code>
@@ -1981,7 +1981,7 @@
 <Fast_Keylock_Code></Fast_Keylock_Code>
 <Enable_KeyLock>0</Enable_KeyLock>
 <Emergency_Call>110</Emergency_Call>
-<LCD_Title>VOIP PHONE</LCD_Title>
+<LCD_Title>Aptitude Technologies</LCD_Title>
 <LCD_Constrast>5</LCD_Constrast>
 <LCD_Luminance>1</LCD_Luminance>
 <Backlight_Off_Time>30</Backlight_Off_Time>
