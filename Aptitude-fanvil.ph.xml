@@ -7,11 +7,11 @@
     <name>Fanvil IP Phone</name>
     <url>http://www.fanvil.com/</url>
     <models>
-      <model ua="Fanvil H3">Fanvil H3-Brunet_fanvil</model>
-      <model ua="Fanvil X3S">Fanvil X3S-Brunet_fanvil</model>
-      <model ua="Fanvil X3">Fanvil X3-Brunet_fanvil</model>
-      <model ua="Fanvil X4">Fanvil X4-Brunet_fanvil</model>
-      <model ua="Fanvil X5">Fanvil X5-Brunet_fanvil</model>
+      <model ua="Fanvil H3">Fanvil H3-Aptitude</model>
+      <model ua="Fanvil X3S">Fanvil X3S-Aptitude</model>
+      <model ua="Fanvil X3">Fanvil X3-Aptitude</model>
+      <model ua="Fanvil X4">Fanvil X4-Aptitude</model>
+      <model ua="Fanvil X5">Fanvil X5-Aptitude</model>
     </models>
     <description>Fanvil IP Phone</description>
     <parsers>
