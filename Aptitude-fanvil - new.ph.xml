@@ -1927,7 +1927,7 @@
 <ID>SIP1</ID>
 <CSTA_Number>%%extension_number%%</CSTA_Number>
 <Phone_Number>%%extension_number%%</Phone_Number>
-<Display_Name>%%extension_first_name%% %%extension_last_name%%</Display_Name>
+<Display_Name>%%extension_first_name%% %%extension_last_name%% - %%extension_number%%</Display_Name>
 <Sip_Name></Sip_Name>
 {IF network=SBC}
 <Register_Addr>%%param::pbxpublicip%%</Register_Addr>
